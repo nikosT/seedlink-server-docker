@@ -19,7 +19,7 @@
 
 FROM ubuntu:20.04
 
-RUN apt-get update -y && apt-get install -y sudo wget python3 libpython3.8 lsb-release
+RUN apt-get update -y && apt-get install -y sudo wget python3 libpython3.8 lsb-release nano
 
 RUN groupadd sysop
 

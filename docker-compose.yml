@@ -10,6 +10,8 @@ services:
       - "11:22"
       - "6080:6080"
       - "6901:5901"
+      - "18000:18000"
+
     volumes:
       - ~/gisola_results:/home/sysop/results
     depends_on:
