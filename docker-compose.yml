@@ -13,10 +13,12 @@ services:
       - "18000:18000"
 
     volumes:
-      - ~/gisola_results:/home/sysop/results
+      - ./seiscomp/var/lib/slarchive:/home/sysop/seiscomp/var/lib/slarchive
+      - ./seiscomp3:/home/sysop/.seiscomp
+      - ./seiscomp/var/lib/archive:/home/sysop/seiscomp/var/lib/archive
     depends_on:
       - db
-    command: bash -c "./wait-for-it.sh db:3306 -- sudo /usr/sbin/sshd; echo -e 'example\nexample\n' | passwd; vncserver -geometry 1440x900; /home/sysop/seiscomp/bin/seiscomp start; /home/sysop/seiscomp/bin/seiscomp start fdsnws; /usr/share/novnc/utils/launch.sh --vnc 0.0.0.0:5901 --listen 6080;"
+    command: bash -c "./wait-for-it.sh db:3306 -- sudo /usr/sbin/sshd; echo -e 'example\nexample\n' | passwd; vncserver -geometry 1440x900; /home/sysop/seiscomp/bin/seiscomp start;  /home/sysop/seiscomp/bin/seiscomp start slarchive; /usr/share/novnc/utils/launch.sh --vnc 0.0.0.0:5901 --listen 6080;"
 
   db:
     container_name: gisola-db
