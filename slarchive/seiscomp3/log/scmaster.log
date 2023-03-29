@@ -1,0 +1,148 @@
+2023/03/29 14:46:12 [notice/Application] Starting scmaster 
+2023/03/29 14:46:12 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:46:12 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:46:12 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:47:16 [notice/Application] Starting scmaster 
+2023/03/29 14:47:16 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:47:16 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:47:16 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:47:16 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:47:16 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:47:16 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:47:16 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:47:16 [notice/Application] Shutdown
+2023/03/29 14:48:19 [notice/Application] Starting scmaster 
+2023/03/29 14:48:19 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:48:19 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:48:19 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:49:23 [notice/Application] Starting scmaster 
+2023/03/29 14:49:23 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:49:23 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:49:23 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:49:23 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:49:23 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:49:23 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:49:23 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:49:23 [notice/Application] Shutdown
+2023/03/29 14:50:25 [notice/Application] Starting scmaster 
+2023/03/29 14:50:25 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:50:25 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:50:25 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:50:25 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:50:25 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:50:25 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:50:25 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:50:25 [notice/Application] Shutdown
+2023/03/29 14:51:28 [notice/Application] Starting scmaster 
+2023/03/29 14:51:28 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:51:28 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:51:28 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:51:28 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:51:28 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:51:28 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:51:28 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:51:28 [notice/Application] Shutdown
+2023/03/29 14:52:31 [notice/Application] Starting scmaster 
+2023/03/29 14:52:31 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:52:31 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:52:31 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:52:31 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:52:31 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:52:31 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:52:31 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:52:31 [notice/Application] Shutdown
+2023/03/29 14:53:34 [notice/Application] Starting scmaster 
+2023/03/29 14:53:34 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:53:34 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:53:34 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:54:42 [notice/Application] Starting scmaster 
+2023/03/29 14:54:42 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:54:42 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:54:42 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:54:42 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:54:42 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:54:42 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:54:42 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:54:42 [notice/Application] Shutdown
+2023/03/29 14:55:49 [notice/Application] Starting scmaster 
+2023/03/29 14:55:49 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:55:49 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:55:49 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:55:49 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:55:49 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:55:49 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:55:49 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:55:49 [notice/Application] Shutdown
+2023/03/29 14:56:53 [notice/Application] Starting scmaster 
+2023/03/29 14:56:53 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:56:53 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:56:53 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:57:55 [notice/Application] Starting scmaster 
+2023/03/29 14:57:55 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:57:55 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:57:55 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:57:55 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:57:55 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:57:55 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:57:55 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:57:55 [notice/Application] Shutdown
+2023/03/29 14:59:00 [notice/Application] Starting scmaster 
+2023/03/29 14:59:00 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 14:59:00 [notice/Application]   API Version : 14.2.0
+2023/03/29 14:59:00 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 14:59:00 [error/MYSQL] Connect to sysop:******@db:3306/seiscomp failed: Unknown MySQL server host 'db' (-3)
+2023/03/29 14:59:00 [error/dbstore] Database check... connection refused, retry
+2023/03/29 14:59:00 [error/dbstore] Database check... connection not available, abort
+2023/03/29 14:59:00 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 14:59:00 [notice/Application] Shutdown
+2023/03/29 16:27:22 [notice/Application] Starting scmaster 
+2023/03/29 16:27:22 [notice/Application]   Framework   : 4.6.0 Release
+2023/03/29 16:27:22 [notice/Application]   API Version : 14.2.0
+2023/03/29 16:27:22 [notice/Application]   Version     : GIT HEAD: 
+Compiler: c++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Build system: Linux 5.4.0-29-generic
+OS: Ubuntu 20.04 LTS / Linux
+2023/03/29 16:27:22 [error/MYSQL] Connect to sysop:******@gisola-db:3306/seiscomp failed: Access denied for user 'sysop'@'172.19.0.4' (using password: YES)
+2023/03/29 16:27:22 [error/dbstore] Database check... connection refused, retry
+2023/03/29 16:27:22 [error/dbstore] Database check... connection not available, abort
+2023/03/29 16:27:22 [error/MASTER] Failed to initialize message processor interface 'dbstore'
+2023/03/29 16:27:22 [notice/Application] Shutdown

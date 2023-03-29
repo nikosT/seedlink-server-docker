@@ -1,21 +1,19 @@
 version: "3.1"
 services:
   seiscomp:
-    container_name: gisola-fdsnws
+    container_name: slarchive
     restart: always
-    build: .
+    build: ./slarchive
     user: sysop
     ports:
       - "8085:8080"
       - "11:22"
       - "6080:6080"
       - "6901:5901"
-      - "18000:18000"
-
     volumes:
-      - ./seiscomp/var/lib/slarchive:/home/sysop/seiscomp/var/lib/slarchive
-      - ./seiscomp3:/home/sysop/.seiscomp
-      - ./seiscomp/var/lib/archive:/home/sysop/seiscomp/var/lib/archive
+      - ./slarchive/seiscomp/var/lib/slarchive:/home/sysop/seiscomp/var/lib/slarchive
+      - ./slarchive/seiscomp3:/home/sysop/.seiscomp
+      - ./archive:/home/sysop/seiscomp/var/lib/archive
     depends_on:
       - db
     command: bash -c "./wait-for-it.sh db:3306 -- sudo /usr/sbin/sshd; echo -e 'example\nexample\n' | passwd; vncserver -geometry 1440x900; /home/sysop/seiscomp/bin/seiscomp start;  /home/sysop/seiscomp/bin/seiscomp start slarchive; /usr/share/novnc/utils/launch.sh --vnc 0.0.0.0:5901 --listen 6080;"
@@ -30,6 +28,18 @@ services:
     volumes:
       - mysql-data:/var/lib/mysql
 
+  seedlink:
+    container_name: seedlink
+    restart: always
+    build: ./seedlink
+    user: sysop
+    ports:
+      - "18000:18000"
+    volumes:
+      - ./seedlink:/seedlink
+      - ./archive:/archive
+    #depends_on:
+    #  - seiscomp
 volumes:
   mysql-data:
 
