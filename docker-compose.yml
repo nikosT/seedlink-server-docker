@@ -37,7 +37,7 @@ services:
       - "18000:18000"
     volumes:
       - ./seedlink:/seedlink
-      - ./archive:/archive
+      - ./archive_encrypt:/archive
     #depends_on:
     #  - seiscomp
 volumes:
