@@ -22,8 +22,8 @@ Use `Slarchive` in order to retrieve real-time data from an external SeedLink se
 In general you will only need to change the `./archive` and the `./archive_encrypt` paths (see below). 
 For more custom things, you might need to change:
 
-For `SeedLink`, the file: https://github.com/nikosT/seedlink-with-slarchive-docker/blob/main/seedlink/ring.conf
-For `Slarchive`, the files: https://github.com/nikosT/seedlink-with-slarchive-docker/blob/main/slarchive/seiscomp3/slarchive.cfg and https://github.com/nikosT/seedlink-with-slarchive-docker/blob/main/slarchive/seiscomp/var/lib/slarchive/slarchive.streams
+* For `SeedLink`, the file: https://github.com/nikosT/seedlink-with-slarchive-docker/blob/main/seedlink/ring.conf
+* For `Slarchive`, the files: https://github.com/nikosT/seedlink-with-slarchive-docker/blob/main/slarchive/seiscomp3/slarchive.cfg and https://github.com/nikosT/seedlink-with-slarchive-docker/blob/main/slarchive/seiscomp/var/lib/slarchive/slarchive.streams
 
 
 ## Run
